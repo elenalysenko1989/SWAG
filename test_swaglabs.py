@@ -58,7 +58,7 @@ def test_login_with_invalid_cred(username, password, checkpoint):
     capture_evidence()
     driver.quit()
     
-######################### SETUP AND TEARDOWN ##########################################
+######################### SETUP AND TEARDOWN #########################################
 @pytest.fixture()
 def setup(request):
     launch_swaglabs()
